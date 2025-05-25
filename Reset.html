@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renitialisation De Mots  De Passe</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="flex items-center justify-center h-screen">
+        <div class="w-full max-w-md">
+            <div class="px-8 pt-6 pb-8 mb-4 bg-white rounded shadow-md">
+                <img class="w-[150px] mx-auto" src="logor.png" alt="">
+                <h3 class="mb-4 text-2xl font-bold text-center">Renitialisation De Mots  De Passe</h3>
+                <form action="">
+                    <div class="mb-4">
+                        <label for="email" class="block mb-2">Email</label>
+                        <input type="email" id="email" class="w-full px-3 py-2 border rounded" placeholder="toto@gmail.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="block mb-2">Nouveau Mots De Passe</label>
+                        <input type="password" id="new_password" class="w-full px-3 py-2 border rounded" placeholder="Nouveau Mot de passe" >
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="block mb-2">Confirmation Du Mot de passe</label>
+                        <input type="password" id="password" class="w-full px-3 py-2 border rounded" placeholder="Confirmation du mots de passe">
+                    </div>
+                    <button type="submit" class="w-full px-4 py-2 text-white bg-green-700">Renitialisation</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
